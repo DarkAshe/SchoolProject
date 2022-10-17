@@ -1,0 +1,65 @@
+body{
+    background-color: darkslategrey;
+    font-family: Tahoma, sans-serif;
+    background-image: linear-gradient(105deg, rgba(0, 0, 0, 0.5), gray);
+    
+}
+
+@keyframes example {
+    0%  {border-color: red;}
+    50%   {border-color: black;}
+    100%  {border-color: red;}
+}
+
+
+
+.first-row{
+    background-color: purple;
+    color: white;
+}
+
+.second-row{
+    background-color: navy;
+    color: white;
+}
+
+td{
+    padding-left: 1vw;
+    height: 5vh;
+}
+
+.first-col{
+    width: 4vw;
+}
+
+.second-col{ 
+    width: 17vw;
+}
+
+.third-col{
+    width: 10vw;
+}
+
+.fourth-col{
+    width: 10vw;
+}
+
+.schedule-table{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    background-color: white;
+    border: .5vw solid rgb(50, 50, 50);
+    border-collapse: collapse;
+    
+}
+
+.schedule-table td, th{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    border: .3vw solid rgb(50, 50, 50);
+    border-collapse: collapse;
+}

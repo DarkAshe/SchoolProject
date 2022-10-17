@@ -1,0 +1,39 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background-image: linear-gradient(-100deg, white, purple);
+}
+
+
+
+.play-table td{
+    width: 20vh;
+    height: 20vh;
+    text-align: center;
+    font-size: 15vh;
+}
+
+.play-table{
+    
+    border-width: 3vh;
+    border-color: black;
+    border-radius: 4vh;
+    margin: auto;
+}
+
+#Result{
+    width: 80vh;
+}
+
+.redCell{
+    background-color: red;
+}
+
+.greenCell{
+    background-color: green;
+}

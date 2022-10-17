@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../../global-style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <table class = "menu-bar">
+                <tr>
+                    <td><a href = "../../index.html">Home</a></td>
+                    <td><a href = "../../index.html#about-me">About me</a></td>
+                    <td><a href = "../../index.html#work">Work</a></td>
+                </tr>
+            </table>
+        </div>
+        <table id = "playBoard" class = "play-table" border = 1>
+            <tr>
+                <td onclick="changeContent(0, 0, 1);"></td>
+                <td onclick="changeContent(1, 0, 2);"></td>
+                <td onclick="changeContent(2, 0, 3);"></td>
+            </tr>
+
+            <tr>
+                <td onclick="changeContent(0, 1, 4);"></td>
+                <td onclick="changeContent(1, 1, 5);"></td>
+                <td onclick="changeContent(2, 1, 6);"></td>
+            </tr>
+
+            <tr>
+                <td onclick="changeContent(0, 2, 7);"></td>
+                <td onclick="changeContent(1, 2, 8);"></td>
+                <td onclick="changeContent(2, 2, 9);"></td>
+            </tr>
+        </table>
+        <table id = "Result"  class = "play-table" border =1>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
