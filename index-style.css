@@ -3,6 +3,7 @@
 
 body{
     background-image: linear-gradient(105deg, rgb(38, 0, 49), rgba(45, 0, 57, 0.7));
+    width: 100vw;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -46,6 +47,7 @@ body{
 .profile-picture{
     padding: 2vw;
     width: 20vw;
+    object-fit: contain;
 }
 
 
