@@ -1,0 +1,271 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: League Spartan;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.main-bg {
+    width: 100%;
+    height: 900px;
+    background: rgb(233, 233, 233);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+#main-text1 {
+    width: 877px;
+    color: rgba(39, 39, 39, 1);
+    position: absolute;
+    top: 189px;
+    left: 15%;
+    font-size: 250px;
+    opacity: 1;
+    text-align: left;
+}
+
+#main-text2 {
+    width: 575px;
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 447px;
+    left: 15%;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+}
+
+#button-1 {
+    width: 278px;
+    height: 82px;
+    background: rgba(22, 20, 20, 1);
+    opacity: 1;
+    position: absolute;
+    top: 650px;
+    left: 15%;
+    box-shadow: 0px 0px 28px rgba(0.8374999761581421, 0.8374999761581421, 0.8374999761581421, 0.5);
+    overflow: hidden;
+}
+
+#button-2 {
+    width: 143px;
+    height: 82px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 650px;
+    left: calc(15% + 278px);
+    box-shadow: 0px 0px 28px rgba(0.8374999761581421, 0.8374999761581421, 0.8374999761581421, 0.25);
+    overflow: hidden;
+}
+
+#button-text1 {
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+#button-text2 {
+    color: rgb(39, 39, 39);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+
+.main-img {
+    position: relative;
+    top: 150px;
+    left: 50%;
+}
+
+.sec-bg {
+    width: 100%;
+    height: 3000px;
+    background: #fff;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+#sec-text-up1 {
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-text-up2 {
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-bg-watch1 {
+    position: relative;
+    width: 417px;
+    height: 630px;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+
+    background: #F8F8F8;
+}
+
+#sec-img1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sec-text {
+    position: relative;
+    top: 150px;
+    left: 48%;
+    transform: translate(-50%);
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-text1 {
+    width: 531px;
+    height: 194px;
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-bg-watch2 {
+    position: relative;
+    width: 417px;
+    height: 630px;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%);
+
+    background: #F8F8F8;
+}
+
+#sec-img2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sec-text2 {
+    position: relative;
+    top: 515px;
+    left: 48%;
+    transform: translate(-50%);
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-text12 {
+    width: 531px;
+    height: 194px;
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-text-desc1 {
+    width: 531px;
+    height: 194px;
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 42px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-text-desc2 {
+    width: 231px;
+    height: 2px;
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 42px;
+    opacity: 1;
+    text-align: center;
+    border: 1px solid #707070;
+}
+
+.sec-text-desc3 {
+    width: 531px;
+    height: 194px;
+    color: rgba(22, 20, 20, 1);
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+}
+
+#sec-text-desc4 {
+    color: goldenrod;
+}
